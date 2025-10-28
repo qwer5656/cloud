@@ -27,6 +27,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
+      # 3️⃣ 測試
+      - name: Run Jest Tests
+        run: npm run test
+
       # 4️⃣ 建置 Vue + Vite
       - name: Build App
         run: npm run build
