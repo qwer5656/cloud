@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { useCounter } from './useCounter.js'
+import { useCounter } from '../useCounter.js'
 
 describe('useCounter', () => {
   it('should increment correctly', () => {
